@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Card_Shuffler/static/css/main.14e21c9f.css",
+    "main.js": "/Card_Shuffler/static/js/main.fa509c23.js",
+    "index.html": "/Card_Shuffler/index.html",
+    "main.14e21c9f.css.map": "/Card_Shuffler/static/css/main.14e21c9f.css.map",
+    "main.fa509c23.js.map": "/Card_Shuffler/static/js/main.fa509c23.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14e21c9f.css",
+    "static/js/main.fa509c23.js"
+  ]
+}

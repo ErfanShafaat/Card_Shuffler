@@ -1,0 +1,110 @@
+body {
+  background: linear-gradient(to bottom, #4caf50 0%, #388e3c 100%);
+  font-family: 'IranNas', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.appTitle {
+  color: #fff;
+  font-family: 'IranNas';
+  font-size: 60px;
+  text-shadow: 2px 2px 4px #000;
+}
+
+.NewGameBTN {
+  background-color: #ffcc00;
+  color: #000;
+  width: 140px;
+  height: 45px;
+  font-size: 18px;
+  margin: 10px auto;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 2px solid #fff;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+
+.NewGameBTN:hover {
+  box-shadow: 0 0 15px #fff;
+  transform: scale(1.05);
+}
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 60%;
+  margin: 50px auto;
+  gap: 25px;
+  justify-content: center;
+}
+
+.card {
+  position: relative;
+  perspective: 1000px;
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.card .front,
+.card .back {
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+}
+
+.card .back {
+  background-color: #fff;
+  transform: rotateY(0deg);
+  transition: transform 0.5s;
+}
+
+.card .front {
+  transform: rotateY(180deg);
+  transition: transform 0.5s;
+}
+
+.flipped .back {
+  transform: rotateY(-180deg);
+}
+
+.flipped .front {
+  transform: rotateY(0deg);
+}
+
+.cardContainer p {
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #000;
+}

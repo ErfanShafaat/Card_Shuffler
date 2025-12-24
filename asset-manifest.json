@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Card_Shuffler/static/css/main.53ea0ae2.css",
-    "main.js": "/Card_Shuffler/static/js/main.9fe895ac.js",
+    "main.js": "/Card_Shuffler/static/js/main.a9a6ac6b.js",
     "index.html": "/Card_Shuffler/index.html",
     "main.53ea0ae2.css.map": "/Card_Shuffler/static/css/main.53ea0ae2.css.map",
-    "main.9fe895ac.js.map": "/Card_Shuffler/static/js/main.9fe895ac.js.map"
+    "main.a9a6ac6b.js.map": "/Card_Shuffler/static/js/main.a9a6ac6b.js.map"
   },
   "entrypoints": [
     "static/css/main.53ea0ae2.css",
-    "static/js/main.9fe895ac.js"
+    "static/js/main.a9a6ac6b.js"
   ]
 }
